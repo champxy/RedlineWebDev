@@ -1,0 +1,241 @@
+.btn-blue {
+    padding: 10px 18px;
+    gap: 10px;
+    height: 36px;
+    background: linear-gradient(180deg, #4480FF 0%, #115DFC 50%, #0550ED 100%);
+    box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+    border-radius: 5px;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+.button-4 {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.button-4:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+}
+
+.button-4:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+
+.button-4:focus {
+    outline: 1px transparent;
+}
+
+.button-4:before {
+    display: none;
+}
+
+.button-4:-webkit-details-marker {
+    display: none;
+}
+
+/* new card */
+  .title {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 1px solid #efeff3;
+    font-weight: 700;
+    font-size: 11px;
+    color: #63656b;
+  }
+  
+  /* cart */
+  .cart {
+    border-radius: 19px 19px 7px 7px;
+  }
+  
+  .cart .products {
+    display: block;
+    padding: 5px;
+  }
+  
+  .cart .products .product {
+    display: grid;
+    grid-template-columns: 60px 100px 5px 1fr;
+    gap: 10px;
+  }
+  
+  .cart .products .product span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #47484b;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .cart .products .product small {
+    font-size: 11px;
+    font-weight: 600;
+    color: #7a7c81;
+    margin-bottom: 5px;
+  }
+
+  
+  /* Checkout */
+  .checkout {
+    border-radius: 9px 9px 19px 19px;
+  }
+  
+  .checkout .details {
+    display: grid;
+    /* grid-template-columns: 60px 100px 5px 1fr; */
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .checkout .details span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #47484b;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .checkout .checkout--footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 20px;
+    background-color: #efeff3;
+  }
+  
+  .price {
+    position: relative;
+    font-size: 22px;
+    color: #2B2B2F;
+    font-weight: 900;
+  }
+  
+  .price sup {
+    font-size: 13px;
+  }
+  
+  .price sub {
+    width: fit-content;
+    position: absolute;
+    font-size: 11px;
+    color: #5F5D6B;
+    bottom: 5px;
+    display: inline-block;
+  }
+  
+  .checkout .checkout-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 36px;
+    background: linear-gradient(180deg, #4480FF 0%, #115DFC 50%, #0550ED 100%);
+    box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+    border-radius: 7px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+
+  .btn-git {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 2px 7px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+   }
+   
+   .btn-git:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+   }
+   
+   .btn-git:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+   }
+   
+   .btn-git:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+   }
+   
+   .btn-git:focus {
+    outline: 1px transparent;
+   }
+   
+   .btn-git:before {
+    display: none;
+   }
+   
+   .btn-git:-webkit-details-marker {
+    display: none;
+   }
